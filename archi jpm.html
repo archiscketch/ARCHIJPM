@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+    <header>
+                       <h1>Bienvenue chez ARCHI JPM</h1>
+
+
+<video autoplay muted loop id="backgroundVideo">
+    <source src="background.mp4" type="video/mp4">
+    Votre navigateur ne prend pas en charge la vidéo.
+</video>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARCHI JPM - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+
+ <nav>
+    <ul>
+        <li><a href="index.html">FR</a></li>
+        <li><a href="index_en.html">EN</a></li>
+    </ul>
+
+
+
+        <ul style="list-style: none; padding: 0; display: flex; gap: 20px;">
+            <li><a href="#services" style="text-decoration: none; color: white;">Services</a></li>
+            <li><a href="#projets" style="text-decoration: none; color: white;">Projets</a></li>
+            <li><a href="#contact" style="text-decoration: none; color: white;">Contact</a></li>
+        </ul>
+    </nav>
+
+</head>
+<script>
+    window.addEventListener('scroll', function() {
+        let sections = document.querySelectorAll('section');
+        sections.forEach(function(section) {
+            let position = section.getBoundingClientRect().top;
+            let windowHeight = window.innerHeight;
+            if (position < windowHeight - 100) {
+                section.classList.add('visible');  /* Ajoute la classe visible */
+            }
+        });
+    });
+</script>
+<script>
+    window.onscroll = function() {
+        let button = document.getElementById("scrollToTopBtn");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            button.style.display = "block";  /* Affiche le bouton quand on descend */
+        } else {
+            button.style.display = "none";  /* Cache le bouton quand on est en haut */
+        }
+    };
+
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });  /* Fait défiler vers le haut avec un effet fluide */
+    }
+</script>
+
+<body>
+
+
+
+        <p>De la conception à la réalisation, nous construisons la confiance.</p>
+    </header>
+    <main>
+.                                                      <p>Chez <strong>ARCHI JPM</strong>,
+
+            <p>ARCHI JPM, qui signifie "L", est né d'une passion pour la construction et le design innovant.</p> nous croyons en la construction de projets durables et de qualité, alliant innovation, expertise et passion. Depuis la conception jusqu'à la réalisation, nous mettons tout en œuvre pour transformer vos idées en véritables réussites. Nous sommes une équipe dédiée à l'excellence, avec un objectif clair : bâtir la confiance et répondre à vos besoins en matière de génie civil et d'architecture.</p>
+            <p>Explorez notre site pour découvrir nos projets, nos services et comment nous pouvons collaborer pour créer des solutions à la hauteur de vos ambitions.</p>
+
+        <section>
+
+         <h2>Notre Mission</h2>
+            <p>Construire des structures modernes tout en établissant une confiance durable avec nos clients.</p>
+
+
+</section>
+.              <h2>Notre Localisation</h2>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434508225!2d144.95592931531814!3d-37.81720997975192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577b48d5c9d44e!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1586952111134!5m2!1sen!2sau" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy"></iframe>
+
+
+<h2>Qui sommes-nous ?</h2>
+            <p>Nous transformons vos idées en réalité grâce à nos services de construction et de design modernes.</p>
+
+            <h2>Nos projets récents</h2>
+            <div class="gallery">
+                <img src="images/projet1.jpg" alt="Projet 1">
+                <img src="images/projet2.jpg" alt="Projet 2">
+            </div>
+
+
+            <h2>Nos services</h2>
+            <p>Nous offrons des services de construction modernes et fiables.</p>
+.                        <h2>Conception</h2>
+            <p>Nous concevons des bâtiments modernes adaptés à vos besoins.</p>
+        <h2>Ce que nous proposons</h2>
+            <ul>
+                <li><strong>Conception architecturale?:</strong> Plans et dessins sur mesure.</li>
+                <li><strong>Gestion de projet?:</strong> Coordination des travaux de A à Z.</li>
+                <li><strong>Rénovation?:</strong> Modernisation des bâtiments existants.</li>
+                <li><strong>Construction clé en main?:</strong> Livraison complète de votre projet.</li>
+            </ul>
+
+
+</section>
+
+
+
+        <section>
+            <h2>Gestion de projets</h2>
+            <p>De la planification à l'exécution, nous garantissons un suivi rigoureux de vos projets.</p>
+
+.           <img src="maison.jpg" alt="Maison moderne" style="width: 100%; max-width: 500px;">
+.           <section id="contact">
+    
+
+        
+        
+    </form>
+.       <section id="services">
+    <h2>Nos services</h2>
+    <p>Nous offrons des services de construction modernes et fiables.
+</p>
+</section>
+
+<section id="projets">
+    <h2>Nos projets</h2>
+    <p>Voici quelques-uns de nos projets réalisés .</p>
+</section>
+
+<section id="contact">
+    <h2>Contactez-nous</h2>
+    <p>Email : archijpm@gmail.com</p>
+    <p>Téléphone : +229 01 44 41 48 31 /  01 94 92 83 99 / 01 57 91 32 18 / 01 57 24 70 11  </p>
+<section id="projets">
+    <h2>Nos Projets</h2>
+    <div class="carrousel">
+        <img src="projet1.jpg" alt="Projet 1">
+        <img src="projet2.jpg" alt="Projet 2">
+        <img src="projet3.jpg" alt="Projet 3">
+    </div>
+</section>
+<section id="contact">
+    <h2>Contactez-nous</h2>
+    <form action="mailto:votre.email@example.com" method="post" enctype="text/plain">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Envoyer</button>
+.       <input type="reset" value="Réinitialiser">
+
+
+    </form>
+<section id="newsletter">
+    <h2>Abonnez-vous à notre newsletter</h2>
+    <form action="mailto:votre.email@example.com" method="post" enctype="text/plain">
+        <label for="email_newsletter">Email :</label>
+        <input type="email" id="email_newsletter" name="email" required>
+
+        <button type="submit">S'abonner</button>
+               
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+
+ </form>
+
+
+
+    <h2>Mon premier article</h2>
+    <p>C'est mon premier article sur mon site web. Je suis super content de partager ça !</p>
+
+.   <h2>Mon image préférée</h2>
+    <img src="image.jpg" alt="Description de l'image">
+
+    <h2>Ma vidéo</h2>
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+      Votre navigateur ne prend pas en charge les vidéos.
+    </video>
+
+    <h2>Vidéo YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ID_DE_LA_VIDEO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<a href="page2.html">Cliquez ici pour visiter la page 2</a>
+<a href="https://www.example.com" target="_blank">Visitez Example</a>
+
+
+    <h2>Mes dernières publications</h2>
+    <ul>
+        <li><a href="article1.html">Article 1: Introduction à mon site</a></li>
+        <li><a href="article2.html">Article 2: Mes projets récents</a></li>
+        <li><a href="article3.html">Article 3: Comment j'ai créé mon site</a></li>
+    </ul>
+
+
+    <h2>Publier un message</h2>
+    <form action="submit_form.php" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+
+
+        </section>
+            <h2>Derniers Articles</h2>
+            <article>
+                <h3>Comment choisir un architecte??</h3>
+                <p>Publié le 12 novembre 2024</p>
+                <p>Découvrez nos conseils pour trouver un professionnel qui répond à vos besoins...</p>
+                <a href="#">Lire la suite</a>
+            </article>
+            <article>
+                <h3>Les tendances architecturales de 2024</h3>
+                <p>Publié le 10 novembre 2024</p>
+                <p>Les designs modernes à ne pas manquer cette année...</p>
+                <a href="#">Lire la suite</a>
+            </article>
+        </section>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Témoignages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ce que disent nos clients</h1>
+        <nav>
+            
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <header>
+        <section>
+            <blockquote>
+                <p>"ARCHI JPM a transformé ma maison en un chef-d'œuvre?! Je recommande vivement?!"</p>
+                <cite>– Jean Dupont</cite>
+            </blockquote>
+            <blockquote>
+                <p>"Des professionnels qui écoutent et réalisent parfaitement les attentes."</p>
+                <cite>– Marie Claire</cite>
+            </blockquote>
+        </section>
+    </main>
+        <header>
+
+    </main>
+    <footer>
+       
+</body>
+<button id="scrollToTopBtn" onclick="scrollToTop()">Retour en haut</button>
+
+</html>
+
+    </header>
+    <main>
+        <section>
+            <h2>Vos Questions</h2>
+            <div class="faq">
+                <h3>Quels types de projets réalisez-vous??</h3>
+                <p>Nous travaillons sur des projets résidentiels, commerciaux, et industriels.</p>
+                <h3>Offrez-vous des devis gratuits??</h3>
+                <p>Oui, nous proposons des devis gratuits après une première consultation.</p>
+                <h3>Combien de temps dure un projet??</h3>
+                <p>La durée varie selon la complexité. Nous fournirons un calendrier détaillé après l'évaluation.</p>
+            </div>
+        </section>
+    
+</body>
+</html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Téléchargements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Téléchargements</h1>
+        <nav>
+            <ul>
+                <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="testimonials.html">Témoignages</a></li>
+                <li><a href="downloads.html">Téléchargements</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Téléchargez nos ressources</h2>
+            <ul>
+                <li><a href="files/devis.pdf" download>Devis Exemple (PDF)</a></li>
+                <li><a href="files/catalogue.pdf" download>Catalogue des Services (PDF)</a></li>
+                <li><a href="files/portfolio.pdf" download>Portfolio de Réalisations (PDF)</a></li>
+            </ul>
+        </section>
+    </main>
+
+
